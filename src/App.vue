@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <dayjs />
+    <date-fns />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "./components/HelloWorld.vue";
+
+import Dayjs from "./components/Dayjs.vue";
+import DateFns from "./components/DateFns.vue";
 
 @Component({
   components: {
-    HelloWorld
+    Dayjs,
+    DateFns
   }
 })
 export default class App extends Vue {}

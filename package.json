@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "analyze": "vue-cli-service build --report"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "date-fns": "^2.12.0",
+    "date-fns-tz": "^1.0.10",
+    "dayjs": "^1.8.24",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.1"
