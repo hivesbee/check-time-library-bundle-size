@@ -1,5 +1,10 @@
 # check-time-library-bundle-size
 
+## バンドルサイズ計測
+```
+npm run analyze
+```
+
 ## Project setup
 ```
 npm install
